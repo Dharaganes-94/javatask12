@@ -1,0 +1,40 @@
+Types of Access Modifier:
+
+  1.Public Access Modifier
+  2.Private Access Modifier
+  3.Protected Access Modifier
+  4.Default Access Modifier
+  
+  Significance of public access modifier:
+  
+    When an element is declared as public, it means that it is accessible from anywhere.
+    For example:public class can be accessed by any other class in any package.
+    A public method or variable can be accessed by any other class or method in any package.
+    
+  Significance of private access modifier:
+   
+    When an element is declared as private, it means that it is accessible only within the class where it is defined
+    For example, a private class can only be used as a nested class inside another class. 
+    A private method or variable can only be accessed by other methods or constructors in the same class, but not by those in other classes or subclasses.
+    
+  Significance of protected access modifier:
+    
+    When an element is declared as protected, it means that it is accessible within the same package or by subclasses in other packages. 
+    For example, a protected class can only be used as a nested class inside another class or subclass.
+    A protected method or variable can be accessed by other classes or methods in the same package, or by subclasses or overridden methods in other packages, 
+    but not by those in other classes that are not subclasses.
+    
+    
+  Significance of Default access modifier:
+     
+     When no access modifier is specified, the element has the default access modifier. 
+     It means that the element is accessible only within the same package. 
+     For example, a default class can be accessed by other classes in the same package, but not by classes in other packages. 
+     Similarly, a default method or variable can be accessed by other classes or methods in the same package, but not by those in other packages.
+    
+    
+    
+    
+    
+    
+    

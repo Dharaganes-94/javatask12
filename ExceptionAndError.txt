@@ -1,0 +1,16 @@
+Difference between Exception and Error
+
+Exception:
+1.We can recover from exceptions by using try-catch block or throwing exceptions back to the caller.
+2.Exceptions include both checked as well as unchecked type.
+3.Program itself is responsible for causing exceptions.
+4.Unchecked exceptions occurs at runtime whereas checked exceptions occurs at comile time
+5.They are defined in java.lang.Exception package
+
+
+Error:
+1.Recovering from Error is not possible.	
+2.All errors in java are unchecked type.	
+3.Errors are mostly caused by the environment in which program is running.	
+4.Errors can occur at compile time.
+They are defined in java.lang.Error package.	
